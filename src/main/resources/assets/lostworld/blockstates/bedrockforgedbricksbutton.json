@@ -1,0 +1,118 @@
+{
+  "variants": {
+    "face=wall,powered=true,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 90,
+      "uvlock": true
+    },
+    "face=wall,powered=false,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 90,
+      "y": 270,
+      "uvlock": true
+    },
+    "face=ceiling,powered=false,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 180,
+      "y": 270
+    },
+    "face=floor,powered=true,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed"
+    },
+    "face=ceiling,powered=true,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 180,
+      "y": 270
+    },
+    "face=floor,powered=false,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "y": 270
+    },
+    "face=wall,powered=true,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 90,
+      "y": 180,
+      "uvlock": true
+    },
+    "face=ceiling,powered=false,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 180
+    },
+    "face=floor,powered=false,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "y": 90
+    },
+    "face=ceiling,powered=true,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 180
+    },
+    "face=ceiling,powered=true,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 180,
+      "y": 180
+    },
+    "face=ceiling,powered=false,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 180,
+      "y": 90
+    },
+    "face=floor,powered=true,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "y": 90
+    },
+    "face=wall,powered=false,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 90,
+      "uvlock": true
+    },
+    "face=floor,powered=false,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "y": 180
+    },
+    "face=wall,powered=false,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 90,
+      "y": 180,
+      "uvlock": true
+    },
+    "face=floor,powered=false,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton"
+    },
+    "face=wall,powered=true,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    },
+    "face=ceiling,powered=true,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 180,
+      "y": 90
+    },
+    "face=ceiling,powered=false,facing=north": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 180,
+      "y": 180
+    },
+    "face=floor,powered=true,facing=south": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "y": 180
+    },
+    "face=wall,powered=true,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "x": 90,
+      "y": 270,
+      "uvlock": true
+    },
+    "face=wall,powered=false,facing=east": {
+      "model": "lostworld:block/bedrockforgedbricksbutton",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    },
+    "face=floor,powered=true,facing=west": {
+      "model": "lostworld:block/bedrockforgedbricksbutton_pressed",
+      "y": 270
+    }
+  }
+}
