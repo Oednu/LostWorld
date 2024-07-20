@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "lostworld:shadderiron"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "III",
+    "BBB",
+    "CCC"
+  ],
+  "result": {
+    "count": 3,
+    "item": "lostworld:steel"
+  },
+  "show_notification": true
+}

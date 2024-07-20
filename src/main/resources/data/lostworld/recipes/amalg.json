@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lostworld:shadderiron"
+    },
+    {
+      "item": "lostworld:shaddercopper"
+    },
+    {
+      "item": "lostworld:shaddergold"
+    },
+    {
+      "item": "lostworld:shaddernetherite"
+    },
+    {
+      "item": "lostworld:shaddersteel"
+    },
+    {
+      "item": "lostworld:shadderbronze"
+    },
+    {
+      "item": "lostworld:shadderdiamond"
+    },
+    {
+      "item": "lostworld:shadderemerald"
+      }
+
+  ],
+  "result": {
+    "count": 1,
+    "item": "lostworld:amalg"
+  },
+  "show_notification": true
+}

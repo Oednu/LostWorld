@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "lostworld:steelbeam"
+    },
+    "A": {
+      "item": "lostworld:shaddergold"
+    },
+    "B": {
+      "item": "minecraft:gold_ingot"
+    }
+
+  },
+  "pattern": [
+    " B ",
+    "SAS",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "item": "lostworld:reinforcedsteelbeam"
+  },
+  "show_notification": true
+}

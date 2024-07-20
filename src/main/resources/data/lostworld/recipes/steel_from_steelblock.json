@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lostworld:steelblock"
+    }
+
+  ],
+  "result": {
+    "count": 9,
+    "item": "lostworld:steel"
+  },
+  "show_notification": true
+}

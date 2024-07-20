@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "lostworld:shadderdiamond"
+    }
+  },
+  "pattern": [
+    "II",
+    "II"
+
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:diamond"
+  },
+  "show_notification": true
+}

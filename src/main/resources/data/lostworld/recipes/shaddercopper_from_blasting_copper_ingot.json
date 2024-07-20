@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 0.7,
+  "group": "shadder",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "count": 4,
+    "item": "lostworld:shaddercopper"
+  }
+}
