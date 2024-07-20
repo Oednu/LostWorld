@@ -189,6 +189,30 @@
           ],
           "name": "minecraft:diamond",
           "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 5.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "lostworld:steel",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 5.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "lostworld:bronze",
+          "weight": 5
         }
       ]
     }

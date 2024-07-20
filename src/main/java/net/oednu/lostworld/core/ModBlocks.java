@@ -4,6 +4,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -53,11 +54,21 @@ public class ModBlocks {
             () -> new FenceBlock(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).strength(-1).explosionResistance(1000000).mapColor(MapColor.NONE)));
 
     public static final RegistryObject<Block> BEDROCKFORGEDTRAPDOOR = BLOCKS.register("bedrockforgedtrapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).strength(-1).noOcclusion().explosionResistance(1000000).mapColor(MapColor.NONE), BlockSetType.IRON));
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).strength(-1).noOcclusion().explosionResistance(1000000).mapColor(MapColor.NONE), BlockSetType.OAK));
 
     public static final RegistryObject<Block> BEDROCKFORGEDGLASS = BLOCKS.register("bedrockforgedglass",
             () -> new GlassBlock(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).noOcclusion().strength(-1).explosionResistance(1000000).mapColor(MapColor.NONE)));
 
     public static final RegistryObject<Block> BEDROCKFORGEDLOG = BLOCKS.register("bedrockforgedlog", () -> new Bedrockforgedlog());
+
+    public static final RegistryObject<Block> BRONZEBLOCK = BLOCKS.register("bronzeblock",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(5).mapColor(MapColor.NONE)));
+
+    public static final RegistryObject<Block> STEELBLOCK = BLOCKS.register("steelblock",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5).mapColor(MapColor.NONE)));
+
+    public static final RegistryObject<Block> CHORUSCOAL_ORE = BLOCKS.register("end_choruscoal_ore",
+            () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3).mapColor(MapColor.NONE)));
+
 
 }

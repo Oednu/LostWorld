@@ -2,10 +2,8 @@ package net.oednu.lostworld;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -28,12 +26,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.oednu.lostworld.core.ModBlocks;
+import net.oednu.lostworld.core.ModCreativeModTabs;
 import net.oednu.lostworld.core.ModItems;
-import net.oednu.lostworld.core.ModTabs;
 import org.slf4j.Logger;
-
-import static net.oednu.lostworld.core.ModItems.*;
-import static net.oednu.lostworld.core.ModItems.BEDROCKFORGEDGLASS_ITEM;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LostWorldMod.MODID)
@@ -65,21 +60,7 @@ public class LostWorldMod {
             //.withTabsBefore(CreativeModeTabs.COMBAT)
             //.icon(() -> BEDROCKFORGEDBRICKS_ITEM.get().getDefaultInstance())
             //.displayItems((parameters, output) -> {
-                //output.accept(BEDROCKFORGEDBRICKS_ITEM.get());
-                //output.accept(BEDROCKFORGEDBRICKSSLAB_ITEM.get());
-                //output.accept(BEDROCKFORGEDBRICKSSTAIRS_ITEM.get());
-                //output.accept(BEDROCKFORGEDBRICKSWALL_ITEM.get());
-                //output.accept(BEDROCKFORGEDBRICKSBUTTON_ITEM.get());
-                //output.accept(BEDROCKFORGEDBRICKSDOOR_ITEM.get());
-                //output.accept(BEDROCKFORGEDPLANK_ITEM.get());
-                //output.accept(BEDROCKFORGEDLOG_ITEM.get());
-                //output.accept(BEDROCKFORGEDSLAB_ITEM.get());
-                //output.accept(BEDROCKFORGEDSTAIRS_ITEM.get());
-                //output.accept(BEDROCKFORGEDWALL_ITEM.get());
-                //output.accept(BEDROCKFORGEDFENCE_ITEM.get());
-                //output.accept(BEDROCKFORGEDTRAPDOOR_ITEM.get());
-                //output.accept(BEDROCKFORGEDGLASS_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
-            //}).build());
+
 
     public LostWorldMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -89,7 +70,7 @@ public class LostWorldMod {
         // Register the client setup method for mod loading
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
-        ModTabs.TABS.register(modEventBus);
+        ModCreativeModTabs.TABS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
