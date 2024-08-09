@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "lostworld:steel_ingot"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "lostworld:shaddersteel"
+    }
+
+  },
+  "pattern": [
+    "SAS",
+    "BAB",
+    "SAS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "lostworld:steelbeam"
+  },
+  "show_notification": true
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "lostworld:block/bedrockforgedplank",
-    "top": "lostworld:block/bedrockforgedplank",
-    "side": "lostworld:block/bedrockforgedplank"
-  }
-}

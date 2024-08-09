@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "lostworld:chorusshard"
+    },
+    "#": {
+      "item": "minecraft:coal"
+    }
+
+  },
+  "pattern": [
+    "CCC",
+    "C#C",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "lostworld:choruscoal"
+  },
+  "show_notification": true
+}

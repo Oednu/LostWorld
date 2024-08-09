@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "lostworld:shadderiron"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "O": {
+      "item": "lostworld:shaddercopper"
+    }
+  },
+  "pattern": [
+    "III",
+    "CCC",
+    "OOO"
+  ],
+  "result": {
+    "count": 3,
+    "item": "lostworld:bronze_ingot"
+  },
+  "show_notification": true
+}
