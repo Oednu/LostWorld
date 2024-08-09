@@ -3,9 +3,7 @@ package net.oednu.lostworld.core;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-
 import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -63,10 +61,6 @@ public class ModCreativeModTabs {
                         //shadder
                         output.accept(ModItems.SHADDERSTEEL_ITEM.get());
 
-                        output.accept(ModItems.STEELBEAM_ITEM.get());
-
-                        output.accept(ModItems.REINFORCEDSTEELBEAM_ITEM.get());
-
 
                         output.accept(ModItems.BRONZE_INGOT_ITEM.get());
                         output.accept(ModItems.BRONZEBLOCK_ITEM.get());
@@ -89,10 +83,58 @@ public class ModCreativeModTabs {
                         //shadder
                         output.accept(ModItems.SHADDEREMERALD_ITEM.get());
 
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> BLOCKS_STUFF = TABS.register("blocks_stuff",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STONEBRICKSLIGHT_ITEM.get()))
+                    .title(Component.translatable("creativetabs.blocks_stuff"))
+                    .displayItems((parameters, output) -> {
+
+                        ///stone
+                        output.accept(ModItems.STONEFORGEDPLANKS_ITEM.get());
+                        output.accept(ModItems.STONEFORGEDSLAB_ITEM.get());
+                        output.accept(ModItems.STONEFORGEDSTAIRS_ITEM.get());
+                        output.accept(ModItems.STONEFORGEDWALL_ITEM.get());
+                        output.accept(ModItems.STONEFORGEDTRAPDOOR_ITEM.get());
+                        output.accept(ModItems.STONEBRICKSLIGHT_ITEM.get());
+                        output.accept(ModItems.MOSSYSTONEBRICKSLIGHT_ITEM.get());
+
+                        ///obsidian
+                        output.accept(ModItems.OBSIDIANFORGEDBRICKS_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDBRICKSSLAB_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDBRICKSSTAIRS_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDBRICKSWALL_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDBRICKSLIGHT_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDPLANKS_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDPLANKSSLAB_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDPLANKSSTAIRS_ITEM.get());
+                        output.accept(ModItems.OBSIDIANFORGEDPLANKSWALL_ITEM.get());
+
+                        //ore
                         output.accept(ModItems.CHORUSCOAL_ORE_ITEM.get());
+
+
+
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> TOOLS = TABS.register("tools",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FORGEHAMMER_ITEM.get()))
+                    .title(Component.translatable("creativetabs.tools"))
+                    .displayItems((parameters, output) -> {
+
                         output.accept(ModItems.CHORUSSHARD_ITEM.get());
                         output.accept(ModItems.CHORUSCOAL_ITEM.get());
                         output.accept(ModItems.COMPRESSEDCHORUSCOAL_ITEM.get());
+
+                        output.accept(ModItems.STEELBEAM_ITEM.get());
+                        output.accept(ModItems.REINFORCEDSTEELBEAM_ITEM.get());
+                        output.accept(ModItems.FORGEHEAD_ITEM.get());
+                        output.accept(ModItems.FORGEHAMMER_ITEM.get());
+                        output.accept(ModItems.GREYKEY_ITEM.get());
+
 
 
                     })

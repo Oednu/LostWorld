@@ -28,6 +28,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.oednu.lostworld.core.ModBlocks;
 import net.oednu.lostworld.core.ModCreativeModTabs;
 import net.oednu.lostworld.core.ModItems;
+import net.oednu.lostworld.core.ModSounds;
+import net.oednu.lostworld.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -71,6 +73,10 @@ public class LostWorldMod {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModCreativeModTabs.TABS.register(modEventBus);
+        ModSounds.SOUND_EVENT.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
+
+
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered

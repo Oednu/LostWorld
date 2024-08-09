@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "lostworld:block/bedrockforgedbricks",
-    "top": "lostworld:block/bedrockforgedbricks",
-    "side": "lostworld:block/bedrockforgedbricks"
-  }
-}
