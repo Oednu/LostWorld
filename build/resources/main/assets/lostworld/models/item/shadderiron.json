@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lostworld:item/shadder_iron"
+    "layer0": "lostworld:item/shadderiron"
   }
 }

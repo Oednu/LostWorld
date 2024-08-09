@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "lostworld:block/end_choruscoal_ore"
-  }
-}

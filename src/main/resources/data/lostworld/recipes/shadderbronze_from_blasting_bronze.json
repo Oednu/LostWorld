@@ -5,7 +5,10 @@
   "experience": 0.7,
   "group": "shadder",
   "ingredient": {
-    "item": "lostworld:bronze"
+    "item": "lostworld:bronze_ingot"
   },
-  "result": "lostworld:shadderbronze"
+  "result": {
+    "count": 4,
+    "item": "lostworld:shadderbronze"
+  }
 }

@@ -199,7 +199,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "lostworld:steel",
+          "name": "lostworld:steel_ingot",
           "weight": 5
         },
         {
@@ -211,8 +211,20 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "lostworld:bronze",
+          "name": "lostworld:bronze_ingot",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "lostworld:dyinglights_musicdisc",
+          "weight": 0.5
         }
       ]
     }

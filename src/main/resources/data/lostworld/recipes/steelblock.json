@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "blocks",
   "key": {
     "#": {
-      "item": "lostworld:steel"
+      "item": "lostworld:steel_ingot"
     }
   },
   "pattern": [
