@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lostworld:block/bedrockforgedbricksslab"
+    },
+    "type=double": {
+      "model": "lostworld:block/bedrockforgedbricks"
+    },
+    "type=top": {
+      "model": "lostworld:block/bedrockforgedbricksslab_top"
+    }
+  }
+}

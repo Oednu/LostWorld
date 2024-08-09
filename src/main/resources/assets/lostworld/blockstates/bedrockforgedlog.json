@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lostworld:block/bedrockforgedlog_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lostworld:block/bedrockforgedlog"
+    },
+    "axis=z": {
+      "model": "lostworld:block/bedrockforgedlog_horizontal",
+      "x": 90
+    }
+  }
+}

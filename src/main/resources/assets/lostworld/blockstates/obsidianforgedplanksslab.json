@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lostworld:block/obsidianforgedplanksslab"
+    },
+    "type=double": {
+      "model": "lostworld:block/obsidianforgedplanks"
+    },
+    "type=top": {
+      "model": "lostworld:block/obsidianforgedplanksslab_top"
+    }
+  }
+}

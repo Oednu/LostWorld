@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {
+      "item": "lostworld:forgehammer"
+    },
+    "!": {
+      "item": "minecraft:stone"
+    },
+    "@": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "!#@"
+  ],
+  "result": {
+    "count": 2,
+    "item": "lostworld:stoneforgedplanks"
+  },
+  "show_notification": true
+}

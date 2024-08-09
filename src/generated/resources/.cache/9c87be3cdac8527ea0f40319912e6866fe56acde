@@ -1,0 +1,6 @@
+// 1.20.1	2024-08-08T20:04:07.2316532	Global Loot Modifiers : lostworld
+0b1ba0748460946a313ced70e2d7cd282757dab9 data/forge/loot_modifiers/global_loot_modifiers.json
+882dcd067bc49d8e37c2469129e66be826a60341 data/lostworld/loot_modifiers/chorusshard_from_shulker.json
+8deffa9f838aa923a7aa8a7ad9ba36985c4987cc data/lostworld/loot_modifiers/greykey_from_bastion_treasure.json
+570212bd81361838112f6f7d6c41f535ab94f4bf data/lostworld/loot_modifiers/greykey_from_end_city_treasure.json
+21f3e77bf32e1dd13686f949bcd2c71a5d6c42d7 data/lostworld/loot_modifiers/greykey_from_nether_bridge.json

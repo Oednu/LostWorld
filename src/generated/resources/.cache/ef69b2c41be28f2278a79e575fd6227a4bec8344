@@ -1,0 +1,8 @@
+// 1.20.1	2024-08-08T16:03:24.4753577	Tags for minecraft:block mod id lostworld
+54e7bf47ca5048e2c82bfb7bf4033cfa184a7a90 data/minecraft/tags/blocks/fences.json
+58f4c7791e786c67cc3981a66d81186299e61dac data/minecraft/tags/blocks/mineable/pickaxe.json
+d7aec29d32fa987ed39c1a46952ba92a9dbb9426 data/minecraft/tags/blocks/needs_diamond_tool.json
+448fd8015008879d27e47d392a1595a636713827 data/minecraft/tags/blocks/needs_iron_tool.json
+b3b7ffe706a418762ee7c310186384b2f31852b0 data/minecraft/tags/blocks/needs_stone_tool.json
+39b5d9447e15ddb4530ee713f23d9d7a50d6a1df data/minecraft/tags/blocks/planks.json
+97d710b2c744b91353d3327448d81a53ba09ccd7 data/minecraft/tags/blocks/walls.json

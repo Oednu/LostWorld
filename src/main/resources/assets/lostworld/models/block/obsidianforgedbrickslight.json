@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lostworld:block/obsidianforgedbricks",
+    "up": "lostworld:block/obsidianforgedbricks",
+    "north": "lostworld:block/obsidianforgedbrickslight",
+    "east": "lostworld:block/obsidianforgedbrickslight",
+    "south": "lostworld:block/obsidianforgedbrickslight",
+    "west": "lostworld:block/obsidianforgedbrickslight",
+    "particle": "lostworld:block/obsidianforgedbricks"
+  },
+  "render_type": "solid"
+}
