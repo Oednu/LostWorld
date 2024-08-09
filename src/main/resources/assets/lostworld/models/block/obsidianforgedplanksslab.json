@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "lostworld:block/obsidianforgedplanks",
+    "side": "lostworld:block/obsidianforgedplanks",
+    "top": "lostworld:block/obsidianforgedplanks"
+  }
+}

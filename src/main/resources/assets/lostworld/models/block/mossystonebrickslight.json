@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/mossy_stone_bricks",
+    "up": "minecraft:block/mossy_stone_bricks",
+    "north": "lostworld:block/mossystonebrickslight",
+    "east": "lostworld:block/mossystonebrickslight",
+    "south": "lostworld:block/mossystonebrickslight",
+    "west": "lostworld:block/mossystonebrickslight",
+    "particle": "minecraft:block/mossy_stone_bricks"
+  },
+  "render_type": "solid"
+}

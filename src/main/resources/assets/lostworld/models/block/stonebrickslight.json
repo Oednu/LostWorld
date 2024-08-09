@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/stone_bricks",
+    "up": "minecraft:block/stone_bricks",
+    "north": "lostworld:block/stonebrickslight",
+    "east": "lostworld:block/stonebrickslight",
+    "south": "lostworld:block/stonebrickslight",
+    "west": "lostworld:block/stonebrickslight",
+    "particle": "minecraft:block/stone_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "dyinglights": {
+    "sounds": [
+      {
+        "name": "lostworld:dyinglights",
+        "stream": true
+      }
+    ]
+  }
+}

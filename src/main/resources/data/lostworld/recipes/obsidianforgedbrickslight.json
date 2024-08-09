@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {
+      "item": "lostworld:obsidianforgedbricks"
+    },
+    "!": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "item": "lostworld:obsidianforgedbrickslight"
+  },
+  "show_notification": true
+}

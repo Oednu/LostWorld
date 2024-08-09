@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lostworld:block/bedrockforgedlog_top",
+    "side": "lostworld:block/bedrockforgedlog"
+  }
+}

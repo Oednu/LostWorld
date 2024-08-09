@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "lostworld:shaddergold"
+    },
+    "C": {
+      "item": "lostworld:steel_ingot"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "GCG"
+  ],
+  "result": {
+    "count": 1,
+    "item": "lostworld:forgehead"
+  },
+  "show_notification": true
+}

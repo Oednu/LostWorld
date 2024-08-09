@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "lostworld:obsidianforgedbricks"
+    }
+  },
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "lostworld:obsidianforgedbricksstairs"
+  },
+  "show_notification": true
+}

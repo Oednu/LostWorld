@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {
+      "item": "minecraft:stone_bricks"
+    },
+    "!": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "pattern": [
+    "###",
+    "#!#",
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "item": "lostworld:stonebrickslight"
+  },
+  "show_notification": true
+}

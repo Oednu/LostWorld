@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "bottom": "lostworld:block/bedrockforgeddoor_bottom",
+    "top": "lostworld:block/bedrockforgeddoor_top"
+  }
+}

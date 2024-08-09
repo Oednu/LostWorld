@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {
+      "item": "lostworld:forgehammer"
+    },
+    "!": {
+      "item": "minecraft:stone_bricks"
+    },
+    "@": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "!#@"
+  ],
+  "result": {
+    "count": 2,
+    "item": "lostworld:obsidianforgedbricks"
+  },
+  "show_notification": true
+}

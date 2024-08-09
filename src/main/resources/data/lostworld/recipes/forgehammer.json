@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "lostworld:forgehead"
+    },
+    "C": {
+      "item": "lostworld:steelbeam"
+    },
+    "R": {
+      "item": "lostworld:reinforcedsteelbeam"
+    }
+  },
+  "pattern": [
+    "CFC",
+    " R ",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "item": "lostworld:forgehammer"
+  },
+  "show_notification": true
+}
