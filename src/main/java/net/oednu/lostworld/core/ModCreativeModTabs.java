@@ -33,6 +33,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BEDROCKFORGEDFENCE_ITEM.get());
                         output.accept(ModItems.BEDROCKFORGEDTRAPDOOR_ITEM.get());
                         output.accept(ModItems.BEDROCKFORGEDGLASS_ITEM.get());
+                        output.accept(ModItems.GRANDDOOR_ITEM.get());
 
                     })
                     .build());
@@ -114,7 +115,8 @@ public class ModCreativeModTabs {
 
                         //ore
                         output.accept(ModItems.CHORUSCOAL_ORE_ITEM.get());
-
+                        output.accept(ModItems.GOLDFORGEDBRICKS_ITEM.get());
+                        
 
 
                     })
@@ -134,6 +136,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.FORGEHEAD_ITEM.get());
                         output.accept(ModItems.FORGEHAMMER_ITEM.get());
                         output.accept(ModItems.GREYKEY_ITEM.get());
+                        output.accept(ModItems.GRANDKEY_ITEM.get());
 
 
 

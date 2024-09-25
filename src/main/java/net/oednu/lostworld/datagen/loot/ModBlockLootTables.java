@@ -49,6 +49,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BEDROCKFORGEDLOG.get());
         this.dropSelf(ModBlocks.STONEBRICKSLIGHT.get());
         this.dropSelf(ModBlocks.MOSSYSTONEBRICKSLIGHT.get());
+        this.dropSelf(ModBlocks.GOLDFORGEDBRICKS.get());
+
 
 
         this.add(ModBlocks.CHORUSCOAL_ORE.get(),
@@ -67,6 +69,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.BEDROCKFORGEDBRICKSDOOR.get(),
                 block -> createDoorTable(ModBlocks.BEDROCKFORGEDBRICKSDOOR.get()));
+
+        this.add(ModBlocks.GRANDDOOR.get(),
+                block -> createDoorTable(ModBlocks.GRANDDOOR.get()));
 
     }
 

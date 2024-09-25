@@ -30,7 +30,9 @@
   "block.lostworld.obsidianforgedplanksslab": "Obsidian Forged Plank Slab",
   "block.lostworld.obsidianforgedplanksstairs": "Obsidian Forged Planks Stairs",
   "block.lostworld.obsidianforgedplankswall": "Obsidian Forged Planks Wall",
-  "creativetabs.bedrockforged": "Bedrock Forged",
+  "enchantment.lostworld.siphon": "Siphon",
+  "message.insufficient_xp": "Insufficient Exp",
+  "creativetabs.bedrockforged": "Unbrakeable",
   "creativetabs.shardderd": "Materials and Shardders",
   "creativetabs.blocks_stuff": "Blocks and Stuff",
   "creativetabs.tools": "Tools",
@@ -55,13 +57,39 @@
   "item.lostworld.greykey": "§7Grey Key",
   "block.lostworld.bronzeblock": "Block of Bronze",
   "block.lostworld.steelblock": "Block of Steel",
+  "block.lostworld.goldforgedbricks": "Gold Forged Brick",
+  "block.lostworld.granddoor": "The Grand Door",
+  "item.lostworld.grandkey": "The Grand Key",
   "item.lostworld.dyinglights_musicdisc": "Dying Lights",
   "item.lostworld.dyinglights_musicdisc.desc": "Oednu_ - Dying Lights",
 
   "tooltip.lostworld.shift": "§eSHIFT§r to see info",
   "tooltip.lostworld.forgehammer": "§bTo combine and manipulate attributes from one §nblock to another§n§b",
   "tooltip.lostworld.greykey": "§bUsed to open Bedrock Forged Doors§b",
+  "tooltip.lostworld.grandkey": "§bUsed to open The Grand Doors§b",
   "tooltip.lostworld.greykey_warning": "§4§l§nWILL BE CONSUMED WHEN USED",
+  "tooltip.lostworld.grandkey_warning": "§4§l§nWILL BE CONSUMED WHEN USED",
+
+  "advancements.overworld.has_key.description": "Look into this, and find its secrets",
+  "advancements.overworld.has_key.title": "Into The Deep",
+  "advancements.overworld.find_outpost.description": "Its... small? Must be more complicated",
+  "advancements.overworld.find_outpost.title": "Outposts",
+  "advancements.overworld.find_fort.description": "Find the lost fort that was rumored",
+  "advancements.overworld.find_fort.title": "This is BIG",
+  "advancements.overworld.golddoor.description": "Whats behind the Gold Door?",
+  "advancements.overworld.golddoor.title": "The Golden Door",
+  "advancements.overworld.forgehammer.description": "Cool hammer :)",
+  "advancements.overworld.forgehammer.title": "BANG BANG",
+
+
+
+  "advancements.end.chorusshard.description": "Find the Glowing Rocks",
+  "advancements.end.chorusshard.title": "Shinny!",
+  "advancements.end.choruscoal.description": "Burnie Burnie",
+  "advancements.end.choruscoal.title": "A New Fuel",
+  "advancements.end.compressedchoruscoal.description": "Something not to mess with",
+  "advancements.end.compressedchoruscoal.title": "WIP",
+
 
   "item.lostworld.amalg": "Wait, so I'm supposed to use this...what is it, a paperweight that lights up? Okay, but why does it need a USB port? And what's this button for? Oh, it changes colors. Great, but...how is this supposed to help me with my work? It's just sitting there, glowing. I guess it's kind of pretty, but...I still don't get it. Am I missing something? Does it have some hidden feature, or is it really just a fancy, glowing rock?"
 }

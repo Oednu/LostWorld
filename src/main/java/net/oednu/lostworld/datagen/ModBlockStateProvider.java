@@ -31,6 +31,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.STONEBRICKSLIGHT);
         blockWithItem(ModBlocks.MOSSYSTONEBRICKSLIGHT);
         blockWithItem(ModBlocks.OBSIDIANFORGEDBRICKSLIGHT);
+        blockWithItem(ModBlocks.GOLDFORGEDBRICKS);
 
         stairsBlock(((StairBlock) ModBlocks.BEDROCKFORGEDBRICKSSTAIRS.get()), blockTexture(ModBlocks.BEDROCKFORGEDBRICKS.get()));
         stairsBlock(((StairBlock) ModBlocks.BEDROCKFORGEDSTAIRS.get()), blockTexture(ModBlocks.BEDROCKFORGEDPLANK.get()));
@@ -55,6 +56,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) ModBlocks.OBSIDIANFORGEDPLANKSWALL.get()), blockTexture(ModBlocks.OBSIDIANFORGEDPLANKS.get()));
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.BEDROCKFORGEDBRICKSDOOR.get()), modLoc("block/bedrockforgeddoor_bottom"), modLoc("block/bedrockforgeddoor_top"), "cutout");
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.GRANDDOOR.get()), modLoc("block/granddoor_bottom"), modLoc("block/granddoor_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.BEDROCKFORGEDTRAPDOOR.get()), modLoc("block/bedrockforgedplank"), true, "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.STONEFORGEDTRAPDOOR.get()), modLoc("block/stoneforgedplanks"), true, "cutout");
 

@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-08T17:21:37.1777141	Item Models: lostworld
+// 1.20.1	2024-08-14T15:38:27.5422249	Item Models: lostworld
 4ab5a12b84f5167ba1377750e2e3af6cbe68e6a7 assets/lostworld/models/item/amalg.json
 6ee26e4915c6f36f17ada0b28ee15f257799824b assets/lostworld/models/item/bedrockforgedbricksbutton.json
 9f44ad90020a119899b9438d0663b1858de41ecb assets/lostworld/models/item/bedrockforgedbricksdoor.json
@@ -17,6 +17,8 @@ b617c0f9e8f8dc75c2f4d2c60662fbe8eb5e108a assets/lostworld/models/item/bedrockfor
 9450c37d1020e9c485fa4b16736264ef6e961ae6 assets/lostworld/models/item/dyinglights_musicdisc.json
 884f9932bf914b4611ebb1606084bcf92e4d0f3a assets/lostworld/models/item/forgehammer.json
 15c9f822b6e859a584c88b71b4f4ea0198dd962b assets/lostworld/models/item/forgehead.json
+4e244723f329b97503814f4128cbc187a2fd2f58 assets/lostworld/models/item/granddoor.json
+3715f060c15db2978f648080b2a021d1ee9533df assets/lostworld/models/item/grandkey.json
 c912e532dd828ff69c35a44872b8432ef41049e1 assets/lostworld/models/item/greykey.json
 141267f79a948b8a321c58785cf4f2a966e04180 assets/lostworld/models/item/obsidianforgedbricksslab.json
 25721fda9787f03b6424b4f14adc41cea295169b assets/lostworld/models/item/obsidianforgedbricksstairs.json

@@ -1,11 +1,15 @@
 package net.oednu.lostworld.core;
 
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.oednu.lostworld.custom.ForgeHammerItem;
 import net.oednu.lostworld.custom.FuelItem;
+import net.oednu.lostworld.custom.GrandKeyItem;
 import net.oednu.lostworld.custom.KeyItem;
 
 import static net.oednu.lostworld.LostWorldMod.MODID;
@@ -131,6 +135,12 @@ public class ModItems {
     public static final RegistryObject<Item> GREYKEY_ITEM = ITEMS.register("greykey",
             () -> new KeyItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> GRANDKEY_ITEM = ITEMS.register("grandkey",
+            () -> new GrandKeyItem(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<Item> GRANDDOOR_ITEM = ITEMS.register("granddoor",
+            () -> new BlockItem(GRANDDOOR.get(), new Item.Properties()));
+
 
     ///Stone forged blocks
 
@@ -154,6 +164,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> MOSSYSTONEBRICKSLIGHT_ITEM = ITEMS.register("mossystonebrickslight",
             () -> new BlockItem(MOSSYSTONEBRICKSLIGHT.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDFORGEDBRICKS_ITEM = ITEMS.register("goldforgedbricks",
+            () -> new BlockItem(GOLDFORGEDBRICKS.get(), new Item.Properties()));
+
 
     ///Obsidian forged blocks
 
@@ -185,3 +199,5 @@ public class ModItems {
             () -> new BlockItem(OBSIDIANFORGEDPLANKSWALL.get(), new Item.Properties()));
 
 }
+
+

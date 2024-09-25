@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-07T23:11:33.5012934	Loot Tables
+// 1.20.1	2024-08-14T15:38:27.5442258	Loot Tables
 749bc9756dc9a3439fdec27bbb43cc09d86efdab data/lostworld/loot_tables/blocks/bedrockforgedbricks.json
 88c622cc70a7062ed9a88415e88554e0332c85cc data/lostworld/loot_tables/blocks/bedrockforgedbricksbutton.json
 86b70a3c6a0315c74b78808c7a579dd61941459f data/lostworld/loot_tables/blocks/bedrockforgedbricksdoor.json
@@ -15,6 +15,8 @@ d7ea0cfca24a42e3ffe37e7d31e8dbc80942256e data/lostworld/loot_tables/blocks/bedro
 c1ca7aca54df8f7603be33ae186777dd83696185 data/lostworld/loot_tables/blocks/bedrockforgedwall.json
 1dc226c02ebadf7dd55227e6ec79f5aa4a627e61 data/lostworld/loot_tables/blocks/bronzeblock.json
 f67e8d19574aa9370a1bc01a70182c56eaa0ca8d data/lostworld/loot_tables/blocks/end_choruscoal_ore.json
+97a4988e367aad13f0e539825baab4aae3ba6b15 data/lostworld/loot_tables/blocks/goldforgedbricks.json
+5e1196b28e199ed18225fa1a81793726d8ad6a8b data/lostworld/loot_tables/blocks/granddoor.json
 bd94123823d615d9e3fbdfbb5f1f04219101ba10 data/lostworld/loot_tables/blocks/mossystonebrickslight.json
 9c74a3202731fa5c93b9527f43051068e68089f2 data/lostworld/loot_tables/blocks/obsidianforgedbricks.json
 0756d31114a1005aa05f9a79ae1a263fe9226898 data/lostworld/loot_tables/blocks/obsidianforgedbrickslight.json
