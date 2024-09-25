@@ -1,0 +1,46 @@
+{
+  "parent": "lostworld:overworld/root",
+  "criteria": {
+    "use_lodestone": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "lostworld:bedrockforgedbricksdoor"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "lostworld:greykey"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.overworld.find_outpost.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lostworld:bedrockforgedbricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.overworld.find_outpost.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

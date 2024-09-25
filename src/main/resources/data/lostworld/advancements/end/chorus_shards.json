@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lostworld:chorusshard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.chorusshard.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lostworld:chorusshard"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.chorusshard.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

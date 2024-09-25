@@ -1,0 +1,33 @@
+{
+  "parent": "lostworld:overworld/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lostworld:forgehammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.overworld.forgehammer.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lostworld:forgehammer"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.overworld.forgehammer.title"
+    }
+  },
+  "sends_telemetry_event": true
+}
