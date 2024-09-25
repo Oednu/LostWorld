@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lostworld:greykey"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "lostworld:textures/gui/advancements/backgrounds/bedrockforgedbricks.png",
+    "description": {
+      "translate": "advancements.overworld.has_key.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lostworld:greykey"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.overworld.has_key.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

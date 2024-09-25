@@ -40,8 +40,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FORGEHEAD_ITEM);
         simpleItem(ModItems.FORGEHAMMER_ITEM);
         simpleItem(ModItems.GREYKEY_ITEM);
+        simpleItem(ModItems.GRANDKEY_ITEM);
 
         simpleBlockItem(ModBlocks.BEDROCKFORGEDBRICKSDOOR);
+        simpleBlockItem(ModBlocks.GRANDDOOR);
 
         fenceItem(ModBlocks.BEDROCKFORGEDFENCE, ModBlocks.BEDROCKFORGEDPLANK);
         buttonItem(ModBlocks.BEDROCKFORGEDBRICKSBUTTON, ModBlocks.BEDROCKFORGEDBRICKS);

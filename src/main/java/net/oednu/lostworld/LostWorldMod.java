@@ -25,10 +25,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.oednu.lostworld.core.ModBlocks;
-import net.oednu.lostworld.core.ModCreativeModTabs;
-import net.oednu.lostworld.core.ModItems;
-import net.oednu.lostworld.core.ModSounds;
+import net.oednu.lostworld.core.*;
 import net.oednu.lostworld.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
@@ -74,6 +71,7 @@ public class LostWorldMod {
         ModItems.ITEMS.register(modEventBus);
         ModCreativeModTabs.TABS.register(modEventBus);
         ModSounds.SOUND_EVENT.register(modEventBus);
+        ModEnchantments.ENCHANTMENTS.register(modEventBus);
         ModLootModifiers.register(modEventBus);
 
 

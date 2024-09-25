@@ -7,6 +7,8 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.oednu.lostworld.custom.ConnectedBlock;
+import net.oednu.lostworld.custom.GrandLockingDoorBlock;
 import net.oednu.lostworld.custom.LockingDoorBlock;
 
 import static net.oednu.lostworld.LostWorldMod.MODID;
@@ -35,6 +37,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BEDROCKFORGEDBRICKSDOOR = BLOCKS.register("bedrockforgedbricksdoor",
             () -> new LockingDoorBlock(BlockBehaviour.Properties.of()));
+
+    public static final RegistryObject<Block> GRANDDOOR = BLOCKS.register("granddoor",
+            () -> new GrandLockingDoorBlock(BlockBehaviour.Properties.of()));
 
     public static final RegistryObject<Block> BEDROCKFORGEDPLANK = BLOCKS.register("bedrockforgedplank",
             () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.NETHERITE_BLOCK).strength(-1).explosionResistance(1000000).mapColor(MapColor.NONE)));
@@ -69,6 +74,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CHORUSCOAL_ORE = BLOCKS.register("end_choruscoal_ore",
             () -> new Block(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3).mapColor(MapColor.NONE)));
+
+    public static final RegistryObject<Block> GOLDFORGEDBRICKS = BLOCKS.register("goldforgedbricks",
+            () -> new ConnectedBlock(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(2).explosionResistance(6).mapColor(MapColor.NONE)));
+
 
 
     ///stone Forged Blocks

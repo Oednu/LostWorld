@@ -1,0 +1,33 @@
+{
+  "parent": "lostworld:end/chorus_coal",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lostworld:compressedchoruscoal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.compressedchoruscoal.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "lostworld:compressedchoruscoal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.compressedchoruscoal.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {
+      "item": "lostworld:forgehammer"
+    },
+    "!": {
+      "item": "minecraft:stone_bricks"
+    },
+    "@": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "!#@"
+  ],
+  "result": {
+    "count": 2,
+    "item": "lostworld:goldforgedbricks"
+  },
+  "show_notification": true
+}
